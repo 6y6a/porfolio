@@ -1,0 +1,33 @@
+.header {
+    height: var(--content-header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--content-padding);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    box-shadow: 2px 5px 15px 0 #141416;
+    backdrop-filter: blur(8px);
+}
+
+.nav {}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    margin-right: 50px;
+}
+
+.link {
+    font-size: 18px;
+}
