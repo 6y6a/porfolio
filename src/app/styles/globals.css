@@ -1,0 +1,23 @@
+:root {
+    --accent-color: #65f4ac;
+    --main-color: #25262a;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: var(--main-color);
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
