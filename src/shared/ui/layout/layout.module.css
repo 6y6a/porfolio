@@ -1,0 +1,10 @@
+.layout {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: var(--content-header-height) var(--content-padding) 0;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+}
