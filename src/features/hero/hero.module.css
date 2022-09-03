@@ -1,0 +1,62 @@
+.block {
+    padding-top: 200px;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 260px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.contact {
+    margin-top: 8px;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.title {
+    margin: 20px 0 10px;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.position {
+    font-size: 70px;
+    line-height: 1;
+    margin: 0;
+    background: -webkit-linear-gradient(-70deg, var(--accent-pink) 0%, var(--accent-purple) 100%);
+    /*background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);*/
+    /*background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);*/
+    /*background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+}
+
+.agenda {
+    font-size: 26px;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+}
+
+.passion {
+    font-size: 34px;
+}
+
+.text {
+    margin: 0 0 16px;
+}
+
+.textSelection {
+    opacity: 0.6;
+}
