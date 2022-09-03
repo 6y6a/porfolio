@@ -1,0 +1,6 @@
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-flex;
+    box-shadow: 9px 12px 15px 0 #141416;
+}
