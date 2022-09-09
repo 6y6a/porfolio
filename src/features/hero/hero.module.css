@@ -7,7 +7,6 @@
     padding: var(--content-padding);
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .content {
@@ -21,12 +20,14 @@
 .avatarWrapper {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .contact {
     margin-top: 4px;
     font-size: 14px;
     text-align: right;
+    color: var(--text-color-darker);
 }
 
 .contact h3 {
@@ -37,13 +38,13 @@
 }
 
 .title {
-    margin: 14px 0;
-    font-size: 20px;
+    margin: 8px 0 20px;
+    font-size: 24px;
     line-height: 1;
 }
 
 .position {
-    font-size: 30px;
+    font-size: 34px;
     line-height: 1.2;
     margin: 0;
     background: -webkit-linear-gradient(-70deg, var(--accent-pink) 0%, var(--accent-purple) 100%);
@@ -65,7 +66,8 @@
 }
 
 .passion {
-    font-size: 20px;
+    font-size: 18px;
+    max-width: 320px;
 }
 
 .passion p {

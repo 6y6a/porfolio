@@ -11,8 +11,8 @@ export const Hero: FC<HeroProps> = () => {
                 <div className={styles.avatarWrapper}>
                     <Avatar
                         src={avatar}
-                        width={120}
-                        height={120}
+                        width={130}
+                        height={130}
                         objectFit={"cover"}
                         priority={true}
                     />
@@ -26,7 +26,7 @@ export const Hero: FC<HeroProps> = () => {
                 </div>
 
                 <div className={styles.contact}>
-                    <div>Saint-Petersburg, Russia</div>
+                    <div>San-Francisco, USA</div>
                     <div>mail: gubinalexeymain@gmail.com</div>
                     <div>tg: @gubinstreet</div>
                     <div>gh: https://github.com/6y6a</div>
