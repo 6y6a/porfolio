@@ -1,14 +1,12 @@
 import { FC } from "react";
 import { LayoutProps } from "./layout.types";
 import styles from "./layout.module.css";
-import { Header } from "../header";
 import { Background } from "../background";
 
 export const Layout: FC<LayoutProps> = ({ children }) => {
     return (
         <div className={styles.layout}>
             <Background />
-            <Header />
             <main className={styles.main}>
                 <div className={styles.content}>{children}</div>
             </main>
