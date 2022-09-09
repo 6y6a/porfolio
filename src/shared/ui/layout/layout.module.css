@@ -10,4 +10,5 @@
 
 .content {
     margin-left: 50%;
+    padding: calc(var(--content-padding) * 3) calc(var(--content-padding) * 2);
 }
