@@ -2,8 +2,10 @@
     --accent-color: #65f4ac;
     --accent-purple: #b180ee;
     --accent-pink: #fc6471;
-    --main-color: #25262a;
+    --main-color: #1d1d21;
+    --main-color-light: #25262a;
     --text-color: #fff;
+    --text-color-darker: #a8a8aa;
     --content-header-height: 70px;
     --content-width: 1200px;
     --content-padding: 24px;
