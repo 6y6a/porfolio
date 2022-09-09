@@ -1,0 +1,41 @@
+.block {
+    position: relative;
+    padding: 36px 40px;
+    background: var(--main-color-light);
+    border-radius: 4px;
+    transition: transform 0.2s;
+    box-shadow: 0 8px 18px 0 #141416;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.block:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer
+}
+
+.title {
+    font-size: 30px;
+    margin: auto 0 4px;
+}
+
+.badge {
+    background-color: var(--accent-pink);
+    color: var(--main-color-light);
+}
+
+.description {
+    margin: 0;
+    color: var(--text-color-darker);
+}
