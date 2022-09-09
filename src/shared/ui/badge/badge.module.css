@@ -1,0 +1,10 @@
+.block {
+    display: inline-flex;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.default {
+    background: var(--main-color);
+    color: var(--text-color-darker);
+}
