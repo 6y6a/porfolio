@@ -1,2 +1,12 @@
 .block {
+    margin-bottom: 160px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 8px;
 }

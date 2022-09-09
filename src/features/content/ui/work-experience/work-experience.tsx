@@ -41,9 +41,13 @@ const work = [
 export const WorkExperience: FC<WorkExperienceProps> = () => {
     return (
         <section className={styles.block}>
-            {work.map((item) => (
-                <WorkCard {...item} />
-            ))}
+            <ul className={styles.list}>
+                {work.map((item) => (
+                    <li>
+                        <WorkCard {...item} />
+                    </li>
+                ))}
+            </ul>
         </section>
     );
 };
