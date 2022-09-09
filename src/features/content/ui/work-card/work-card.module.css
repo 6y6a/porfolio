@@ -1,0 +1,44 @@
+.block {
+    position: relative;
+    padding: 36px 40px;
+    background: var(--main-color-light);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    transition: transform 0.2s;
+    box-shadow: 0 8px 18px 0 #141416;
+}
+
+.block:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.badge {
+    position: absolute;
+    top: 36px;
+    right: 36px;
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer
+}
+
+.year {
+    margin: 0 0 4px;
+}
+
+
+.title {
+    margin: 0 0 4px;
+    font-size: 30px;
+}
+
+.description {
+    margin: 0;
+    color: var(--text-color-darker);
+}
