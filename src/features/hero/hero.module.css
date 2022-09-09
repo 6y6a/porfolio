@@ -1,35 +1,50 @@
 .block {
-    padding-top: 200px;
-}
-
-.card {
+    position: fixed;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    top: 0;
+    padding: var(--content-padding);
     display: flex;
-    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-.left {
-    width: 260px;
-    text-align: right;
-    flex-shrink: 0;
+.content {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-row-gap: 28px;
+    grid-column-gap: 48px;
+}
+
+.avatarWrapper {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contact {
-    margin-top: 8px;
+    margin-top: 4px;
+    font-size: 14px;
+    text-align: right;
 }
 
-.right {
-    margin-left: 100px;
+.contact h3 {
+    margin: 16px 0 8px;
+}
+
+.header {
 }
 
 .title {
-    margin: 20px 0 10px;
-    font-size: 34px;
+    margin: 14px 0;
+    font-size: 20px;
     line-height: 1;
 }
 
 .position {
-    font-size: 70px;
-    line-height: 1;
+    font-size: 30px;
+    line-height: 1.2;
     margin: 0;
     background: -webkit-linear-gradient(-70deg, var(--accent-pink) 0%, var(--accent-purple) 100%);
     /*background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);*/
@@ -50,13 +65,13 @@
 }
 
 .passion {
-    font-size: 34px;
+    font-size: 20px;
 }
 
-.text {
+.passion p {
     margin: 0 0 16px;
 }
 
-.textSelection {
-    opacity: 0.6;
+.passion p:last-child {
+    margin: 0;
 }
