@@ -97,7 +97,7 @@ export const Background: FC<BackgroundProps> = () => {
                         stdDeviation="100"
                     />
                 </filter>
-                <g filter="url(#a)" opacity=".14">
+                <g filter="url(#a)" opacity=".34">
                     <circle
                         cx="2204"
                         cy="1080"
@@ -122,7 +122,7 @@ export const Background: FC<BackgroundProps> = () => {
                         ry="229"
                     />
                 </g>
-                <g filter="url(#d)" opacity=".33">
+                <g filter="url(#d)" opacity=".53">
                     <ellipse
                         cx="770"
                         cy="381"
