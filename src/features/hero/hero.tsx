@@ -34,6 +34,12 @@ export const Hero: FC<HeroProps> = () => {
                     <h3>Languages</h3>
                     <div>Russian (native)</div>
                     <div>English (B1)</div>
+
+                    <h3>Education</h3>
+                    <div>
+                        Bachelor degree in computer science at Tomsk Polytechnic
+                        University
+                    </div>
                 </div>
 
                 <div className={styles.passion}>
