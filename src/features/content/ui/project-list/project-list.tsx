@@ -40,8 +40,8 @@ export const ProjectList: FC<ProjectListProps> = () => {
     return (
         <section>
             <ul className={styles.list}>
-                {projects.map((item) => (
-                    <li className={styles.item}>
+                {projects.map((item, index) => (
+                    <li className={styles.item} key={index}>
                         <ProjectCard
                             company={item.company}
                             description={item.description}

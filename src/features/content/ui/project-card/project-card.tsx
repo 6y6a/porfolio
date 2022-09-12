@@ -11,7 +11,12 @@ export const ProjectCard: FC<ProjectCardProps> = ({
     return (
         <article className={styles.block}>
             {link && (
-                <a href={link} target={"_blank"} className={styles.link} />
+                <a
+                    href={link}
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                    className={styles.link}
+                />
             )}
             {company}
             <h3 className={styles.title}>{title}</h3>

@@ -42,8 +42,8 @@ export const WorkExperience: FC<WorkExperienceProps> = () => {
     return (
         <section className={styles.block}>
             <ul className={styles.list}>
-                {work.map((item) => (
-                    <li>
+                {work.map((item, index) => (
+                    <li key={index}>
                         <WorkCard {...item} />
                     </li>
                 ))}

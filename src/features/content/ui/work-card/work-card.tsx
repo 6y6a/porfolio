@@ -19,7 +19,12 @@ export const WorkCard: FC<WorkCardProps> = ({
             <Badge className={styles.badge}>{position}</Badge>
 
             {link && (
-                <a href={link} target={"_blank"} className={styles.link} />
+                <a
+                    href={link}
+                    target={"_blank"}
+                    rel="noreferrer"
+                    className={styles.link}
+                />
             )}
             <p className={styles.year}>
                 {start} - {end}
